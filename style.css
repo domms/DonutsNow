@@ -1,0 +1,74 @@
+.swiper {
+    width: 100%;
+    height: 60%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .btnStyle {
+      background-color: none;
+      border: 10px solid black;
+  }
+
+  .locationText {
+      background-color: #3d2301;
+      color: white;
+      
+  }
+
+  .brownBorder {
+      border: 10px double #29170094;
+      margin: 20px;
+  }
+
+  .social {
+      display: inline;
+      text-decoration: none;
+      padding: 10;
+  }
+
+  .menuItems {
+    padding: 10;
+    font-size: 16;
+    list-style-type: none;
+  }
+
+  .hours {
+    padding: 10;
+    font-size: 20;
+    list-style-type: none;
+  }
+
+  .prices {
+      font-size: 20;
+  }
+
+  .footerStyle {
+    padding: 10;
+    list-style-type: none;
+  }
